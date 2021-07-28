@@ -1,0 +1,23 @@
+
+.productTable{
+    margin-top: 50px;
+    direction: rtl;
+}
+.table{
+            width:900px;
+            border-collapse: collapse;
+            th{
+                text-align:left;
+                background-color: burlywood;
+                font-size: medium;
+                height: 50px;
+            }
+            td{
+                border-top:1px solid lightgrey;
+                &:nth-child(2){
+                    color: blue;
+                }
+            }
+            
+        }
+        
